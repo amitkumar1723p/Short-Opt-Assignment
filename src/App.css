@@ -1,0 +1,67 @@
+.otpInput>input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 2em;
+
+  max-width: 40px;
+  margin: 5px;
+  text-align: center;
+}
+
+* {
+  overflow-wrap: anywhere;
+}
+
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+
+}
+
+.otpInput>input:focus-visible {
+  border: none;
+  background-color: #3a3abfbf;
+  color: white;
+
+}
+
+.otpverify_Container {
+  margin-top: 45px;
+  background: #3f9fae;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 4px 19px;
+  background: green;
+  color: white;
+  font-size: 1.3em;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  transition: all .1s ease-in-out;
+}
+
+.showerror {
+  margin: 0;
+  color: red;
+  margin-top: 8px;
+}
+
+button:active {
+  color: #64ff00;
+  background: #144c86;
+}
